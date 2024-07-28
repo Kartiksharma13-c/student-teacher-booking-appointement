@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+    margin: 0;
+    color: #fff; /* White text */
+}
+
+#container {
+    width: 400px;
+    padding: 20px;
+    background: #333; /* Darker container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff; /* White text */
+}
+
+input {
+    background-color: #444; /* Dark input background */
+}
+
+button {
+    background-color: #007BFF; /* Blue button */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #333; /* Dark table background */
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid #555; /* Darker border */
+    padding: 10px;
+    text-align: left;
+    color: #fff; /* White text */
+}
+
+th {
+    background-color: #555; /* Dark header background */
+}
+#register-email , #register-password , #login-password , #login-email{
+    padding-right:0px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+#register, #login {
+    display: none;
+}
+
+#register.active, #login.active {
+    display: block;
+}
